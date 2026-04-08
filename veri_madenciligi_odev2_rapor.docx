@@ -1,10 +1,1 @@
-Giriş
-Bu çalışmanın amacı, veri madenciliği sürecinin temel aşamalarını R programlama dili ile uygulamalı olarak göstermektir. Çalışmada veri içe aktarma, veri temizleme, eksik veri giderme, aykırı değer analizi, keşifsel veri analizi, görselleştirme ve lineer regresyon modeli kurulumu gerçekleştirilmiştir. Süreç, veri ön işleme ve temel modelleme mantığını bütüncül biçimde göstermeyi hedeflemektedir.
-Veri Seti
-Çalışmada Palmer Penguins veri seti kullanılmıştır. Veri seti açık erişimli ve doğrudan URL üzerinden okunmuştur. Veri setinde penguen türü, ada, cinsiyet, gaga uzunluğu, gaga derinliği, yüzgeç uzunluğu ve vücut kütlesi gibi değişkenler yer almakta. Modelleme aşamasında bağımlı değişken olarak vücut kütlesi seçilmiştir.
-Yöntem
-İlk aşamada veri R ortamına aktarılmış ve gerekli değişkenler seçilmiştir. Daha sonra değişken adları daha anlaşılır olacak biçimde Türkçeleştirilmiştir. Eksik değerler sayısal değişkenlerde medyan, kategorik değişkenlerde mod ile doldurulmuştur. Sayısal değişkenler için özet istatistikler, çarpıklık ve basıklık değerleri hesaplanmıştır. Aykırı gözlemler IQR yöntemi ile belirlenmiş ve veri setinden çıkarılmıştır. Dağılımı görmek için histogram, değişkenler arası ilişkiyi görmek için korelasyon matrisi oluşturulmuştur. Son aşamada lineer regresyon modeli kurulmuş, model başarısı MAE ve R² ölçütleri ile değerlendirilmiştir.
-Bulgular
-Eksik veri kontrolü ve doldurma işlemleri sonrasında veri seti analiz için uygun hâle getirilmiştir. IQR yöntemi ile belirlenen aykırı gözlemler çıkarıldıktan sonra daha dengeli bir veri yapısı elde edilmiştir. Korelasyon matrisi, özellikle yüzgeç uzunluğu ile vücut kütlesi arasında belirgin bir ilişki olduğunu göstermiştir. Kurulan lineer regresyon modeli, penguenlerin vücut kütlesini belirli ölçüde açıklamıştır. Elde edilen MAE ve R² değerleri model performansının temel düzeyde değerlendirilebildiğini göstermektedir.
-Sonuç
-Çalışma, veri madenciliğinin temel adımlarını tek bir R scripti üzerinden göstermektedir. Veri ön işleme, aykırı değer analizi ve görselleştirme adımları modelleme öncesinde önemli adımlardır. Lineer regresyon modeli, veri seti üzerindeki temel ilişkileri incelemek için uygun bir başlangıç sağlamıştır. Çalışma, veri madenciliği sürecinin küçük ölçekli ancak izlenebilir bir örneğini sunmaktadır.
+
